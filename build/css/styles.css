@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap');
+
+* {
+  background: #FFFFDE;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 4rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.italic {
+  font-style: italic;
+  color: #FF7396;
+}
+
+.current {
+  padding-top: 50px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.bookInput {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #FF7396;
+  margin: 0.25rem 0 0.5rem 0;
+  font-size: 2rem;
+  transition: padding 0.5s ease;
+  color: #C499BA;
+}
+
+.bookInput:focus {
+  outline: none;
+  padding: 0.5 rem;
+}
+
+.btn {
+  color: #f4f4f4;
+  background: #FF7396;
+  padding: 0.5rem 1rem;
+  border: none;
+  transition: background 0.5s ease;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #F4E06D;
+}
+
+.books {
+  margin: 2rem 0;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+.currentRead {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 1.5rem;
+  margin: 0 2rem;
+  font-style: bold;
+
+}
+
+.lowerHeaders {
+  padding-top: 25px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
